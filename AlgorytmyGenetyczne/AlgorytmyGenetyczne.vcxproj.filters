@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Foundation">
+      <UniqueIdentifier>{437c8b7f-934e-4418-8128-09ec34e05916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FlowShop">
+      <UniqueIdentifier>{00b9b972-c1f2-49e6-8057-05f925510e84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FlowShop">
+      <UniqueIdentifier>{d9354ada-1317-4a70-9c09-be96f95c6fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Foundation\Algorithms">
+      <UniqueIdentifier>{36490316-c887-44dd-bcff-e04a562c0b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Foundation\TabuSearch">
+      <UniqueIdentifier>{773e4fcf-2994-41da-9795-e034fa67ecbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Foundation\SimulatedAnnealing">
+      <UniqueIdentifier>{3c1896a9-0d86-4dfe-bfa3-481bd4f5eb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Excel">
+      <UniqueIdentifier>{1b34b1ef-5596-499d-ac7e-80fff965ec40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\File">
+      <UniqueIdentifier>{a763b9c7-a2e2-4ac5-ae21-2ae50bd228a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Testers">
+      <UniqueIdentifier>{c3d0653e-4295-42b7-a760-aff1a0a883c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FlowShop\SANeighbourhoodOperators">
+      <UniqueIdentifier>{cf087713-72f2-4c42-a595-f664cf45539b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FlowShop\TabuNeighbourhoodOperators">
+      <UniqueIdentifier>{fb91907f-dfe2-4aef-9a0e-601fc9de81f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowShopProblemData.cpp">
+      <Filter>Source Files\FlowShop</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowShopIndividual.cpp">
+      <Filter>Source Files\FlowShop</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowShopMutationOper.cpp">
+      <Filter>Source Files\FlowShop</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowShopCrossOverOper.cpp">
+      <Filter>Source Files\FlowShop</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowShopEvaluationFunction.cpp">
+      <Filter>Source Files\FlowShop</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowShopRandomInitializator.cpp">
+      <Filter>Source Files\FlowShop</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowShopSAInitializator.cpp">
+      <Filter>Source Files\FlowShop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CrossOverOperator.h">
+      <Filter>Header Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Individual.h">
+      <Filter>Header Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="MutationOperator.h">
+      <Filter>Header Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionOperator.h">
+      <Filter>Header Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics.h">
+      <Filter>Header Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="ProblemData.h">
+      <Filter>Header Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopProblem.h">
+      <Filter>Header Files\FlowShop</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopProblemData.h">
+      <Filter>Header Files\FlowShop</Filter>
+    </ClInclude>
+    <ClInclude Include="EvaluationFunction.h">
+      <Filter>Header Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopIndividual.h">
+      <Filter>Header Files\FlowShop</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopMutationOper.h">
+      <Filter>Header Files\FlowShop</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopCrossOverOper.h">
+      <Filter>Header Files\FlowShop</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopEvaluationFunction.h">
+      <Filter>Header Files\FlowShop</Filter>
+    </ClInclude>
+    <ClInclude Include="Initializator.h">
+      <Filter>Header Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopRandomInitializator.h">
+      <Filter>Header Files\FlowShop</Filter>
+    </ClInclude>
+    <ClInclude Include="EvolutionAlgorithm.h">
+      <Filter>Header Files\Foundation\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="StopCondition.h">
+      <Filter>Header Files\Foundation\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="TabuSelection.h">
+      <Filter>Header Files\Foundation\TabuSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="TabuSlowSelection.h">
+      <Filter>Header Files\Foundation\TabuSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="TabuSearchAlgorithm.h">
+      <Filter>Header Files\Foundation\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="SASelection.h">
+      <Filter>Header Files\Foundation\SimulatedAnnealing</Filter>
+    </ClInclude>
+    <ClInclude Include="TabuNeighbourhoodSelector.h">
+      <Filter>Header Files\Foundation\TabuSearch</Filter>
+    </ClInclude>
+    <ClInclude Include="SANeighbourhoodSelector.h">
+      <Filter>Header Files\Foundation\SimulatedAnnealing</Filter>
+    </ClInclude>
+    <ClInclude Include="SAAlgorithm.h">
+      <Filter>Header Files\Foundation\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Header Files\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtils.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="NamedValue.h">
+      <Filter>Header Files\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Population.h">
+      <Filter>Header Files\Foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="TournamentSelection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearTester.h">
+      <Filter>Header Files\Testers</Filter>
+    </ClInclude>
+    <ClInclude Include="Workbook.h">
+      <Filter>Header Files\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopSANeighbourhoodOperSwapFewTimes.h">
+      <Filter>Header Files\FlowShop\SANeighbourhoodOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopSANeighbourhoodOperSwapAll.h">
+      <Filter>Header Files\FlowShop\SANeighbourhoodOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopSANeighbourhoodOperReverseSequence.h">
+      <Filter>Header Files\FlowShop\SANeighbourhoodOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopSANeighbourhoodOperReposition.h">
+      <Filter>Header Files\FlowShop\SANeighbourhoodOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopTabuNeighbourhoodOperSwapAll.h">
+      <Filter>Header Files\FlowShop\TabuNeighbourhoodOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopTabuNeighbourhoodOperSwapClose.h">
+      <Filter>Header Files\FlowShop\TabuNeighbourhoodOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopTabuNeighbourhoodOperSwapFewTimes.h">
+      <Filter>Header Files\FlowShop\TabuNeighbourhoodOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopTabuNeighbourhoodOperReverseSequence.h">
+      <Filter>Header Files\FlowShop\TabuNeighbourhoodOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopTabuNeighbourhoodOperReposition.h">
+      <Filter>Header Files\FlowShop\TabuNeighbourhoodOperators</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowShopSAInitializator.h">
+      <Filter>Header Files\FlowShop</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
